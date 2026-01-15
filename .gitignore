@@ -22,7 +22,10 @@ SheetsAttendance/
 *.png:Zone.Identifier
 *.jpeg:Zone.Identifier
 
-test_frame.jpg
+*.jpg
+*.png
+*.jpeg
+
 *.tmp
 
 *.log
