@@ -1,3 +1,6 @@
+# --------------------
+# Python cache & build
+# --------------------
 __pycache__/
 *.py[cod]
 *.pyc
@@ -5,30 +8,46 @@ __pycache__/
 *.pyd
 .Python
 
-cv-env/
+# --------------------
+# Virtual environments
+# --------------------
 venv/
 env/
-
+cv-env/
 .env
 
+# --------------------
+# IDE / Editor files
+# --------------------
 .vscode/
 .idea/
 *.swp
 
+# --------------------
+# Application data
+# --------------------
 SheetsAttendance/
+Students/
+
+# Ignore CSVs globally
 *.csv
 
-Students/
-*.jpg:Zone.Identifier
-*.png:Zone.Identifier
-*.jpeg:Zone.Identifier
+# Ignore images
 *.jpg
-*.png
 *.jpeg
+*.png
 
+# Ignore Windows security metadata
+*:Zone.Identifier
+
+# --------------------
+# Temp & logs
+# --------------------
 *.tmp
-
 *.log
 
+# --------------------
+# OS-specific files
+# --------------------
 .DS_Store
 Thumbs.db
