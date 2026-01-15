@@ -18,10 +18,10 @@ env/
 SheetsAttendance/
 *.csv
 
+Students/
 *.jpg:Zone.Identifier
 *.png:Zone.Identifier
 *.jpeg:Zone.Identifier
-
 *.jpg
 *.png
 *.jpeg
