@@ -7,8 +7,13 @@ def findEncodings(images):
     encodeList = []
     for img in images:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        encode = face_recognition.face_encodings(img)[0]
-        encodeList.append(encode)
+        encodings = face_recognition.face_encodings(img)
+        
+        if len(encodings) > 0:
+            encodeList.append(encodings[0])
+        else:
+            print("Warning: No face found in image, skipping...")
+    
     return encodeList
 
 def markAttendanceDaily(name):
