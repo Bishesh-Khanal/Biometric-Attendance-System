@@ -19,7 +19,8 @@ pip install -r requirements.txt
 1. Copy `.env.example` to `.env`
 2. Update `CAMERA_IP` with your phone's IP address
 3. Run IP Webcam app on your phone
-4. Put your students' images inside the `Students` directory
+4. Create a sub directory for each student inside the `Students` directory
+5. Put your students' images inside their respective sub directory
 
 ## Run
 ```bash
